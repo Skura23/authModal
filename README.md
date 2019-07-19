@@ -1,6 +1,7 @@
 ### 一个简单的小程序授权弹窗组件  
 调用示例:  
-`<authModal bind:confirmEvent="confirmclick" hasCancelBtn="{{false}}" url="你的接口地址"></authModal>`  
+`<authModal bind:confirmEvent="confirmclick" hasCancelBtn="{{false}}" url="你的接口地址"></authModal>` 
+
 ![alt text](https://raw.githubusercontent.com/Skura23/authModal/master/demo.png)
 
 + 属性   
