@@ -5,7 +5,7 @@
 ![alt text](https://raw.githubusercontent.com/Skura23/authModal/master/demo.png)
 
 + 属性   
-  + **hasCancelBtn** 是否有取消按钮,type: String, 默认: true
+  + **hasCancelBtn** 是否有取消按钮,type: Boolean, 默认: true
   + **url** 接口更新地址,type: String, 默认: ''
 + 事件   
   + **bindcancelEvent** 取消按钮事件
