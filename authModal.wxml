@@ -1,0 +1,12 @@
+<!-- components/authModal.wxml -->
+
+<view class="comp-authModal">
+  <view class="inner">
+    <view class="title">用户未授权</view>
+    <view class="subtitle">您需要先同意【用户授权】，才能进行后续操作</view>
+    <view class="model-btns">
+      <view bindtap="cancelclick" class="cancel" wx:if="{{hasCancelBtn}}">取消</view>
+      <button bindgetuserinfo="confirmclick" open-type="getUserInfo" class="confirm" style="width: {{hasCancelBtn ? '50%' : '100%'}};">同意</button>
+    </view>
+  </view>
+</view>

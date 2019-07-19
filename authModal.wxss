@@ -1,0 +1,88 @@
+/* components/authModal.wxss */
+.comp-authModal {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2999;
+}
+
+.comp-authModal .inner {
+  width: 624rpx;
+  height: 380rpx;
+  background: #fff;
+  border-radius: 8rpx;
+  margin: 260rpx auto;
+  overflow: hidden;
+}
+
+.comp-authModal .inner .title {
+  font-size: 36rpx;
+  color: #FF4500;
+  line-height: 100rpx;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20rpx;
+}
+
+.comp-authModal .inner .image {
+  text-align: center;
+  margin-top: 20rpx;
+}
+
+.comp-authModal .inner image {
+  width: 342rpx;
+  height: 202rpx;
+}
+
+.comp-authModal .inner .subtitle {
+  margin-top: 50rpx;
+  padding: 0 80rpx;
+  color: #888;
+  font-size: 26rpx;
+  line-height: 40rpx;
+}
+
+.comp-authModal .model-btns {
+  border-top: 1rpx solid #ebebeb;
+  height: 100rpx;
+  margin-top: 28rpx;
+  display: flex;
+  text-align: center;
+  font-size: 30rpx;
+  color: #000;
+  line-height: 100rpx;
+}
+
+.comp-authModal .model-btns .cancel {
+  width: 50%;
+  position: relative;
+}
+
+.comp-authModal .model-btns .cancel:after {
+  content: " ";
+  position: absolute;
+  top: -1rpx;
+  right: 0;
+  width: 1px;
+  height: 210rpx;
+  border-right: 1px solid #ebebeb;
+  color: #ebebeb;
+  transform-origin: 0 0;
+  transform: scaleY(0.5);
+}
+
+.comp-authModal .model-btns .confirm {
+  width: 50%;
+  color: #50b33c;
+}
+
+.comp-authModal .model-btns button::after {
+  border: none
+}
+.comp-authModal .model-btns button.confirm{
+  width: 100%;
+  background-color: transparent!important;
+}
